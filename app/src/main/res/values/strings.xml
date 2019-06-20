@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Facilition App</string>
+    <string name="title_activity_student_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="newsevents"> News &amp; Events</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_forgotpass">Forgot Password</string>
+    <string name="title_confirm_code">Confirmation Code</string>
+    <string name="title_activity_suggestion">Suggestion</string>
+    <string name="title_activity_complaint">Complaint</string>
+    <string name="title_activity_mainhome_student">mainhome_student</string>
+    <string name="title_activity_complain_status">Complaint Status</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_news_events">News &amp; Events</string>
+    <string name="title_activity_confirmation_code">Confirmation Code</string>
+    <string name="title_activity_signup_student">Add Student</string>
+    <string name="title_activity_admin_dashboard">Admin Dashboard</string>
+</resources>

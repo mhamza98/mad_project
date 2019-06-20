@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "806331226364",
+    "firebase_url": "https://facilitionapp.firebaseio.com",
+    "project_id": "facilitionapp",
+    "storage_bucket": "facilitionapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806331226364:android:fc24810312c51897",
+        "android_client_info": {
+          "package_name": "com.example.facilitionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806331226364-2f06l2rb1od4jofsvgrtd8d15o8gu1ea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.facilitionapp",
+            "certificate_hash": "69200e3121d0e49e5b82c3d469b4d89176818a56"
+          }
+        },
+        {
+          "client_id": "806331226364-btifm1mfj3s7mloclhpeeckrelsdugo2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABs0HMKGY1s5dUfgHpMccMXfQlzGjwg54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806331226364-btifm1mfj3s7mloclhpeeckrelsdugo2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

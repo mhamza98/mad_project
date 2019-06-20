@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homes"
+            android:icon="@drawable/st_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/st_notification"
+            android:title="Notification" />
+        <item
+            android:id="@+id/suggestion"
+            android:icon="@drawable/st_suggestion"
+            android:title="Suggestion" />
+        <item
+            android:id="@+id/complaint_status"
+            android:icon="@drawable/st_complaint_status"
+            android:title="Complaint Status" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/change_password"
+                android:icon="@drawable/st_change_pass1"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/st_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

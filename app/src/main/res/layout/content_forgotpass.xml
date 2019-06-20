@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".forgotpass"
+    tools:showIn="@layout/activity_forgotpass"
+    android:background="@drawable/grad_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <EditText
+            android:id="@+id/forgot_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-light"
+            />
+        <Button
+            android:id="@+id/bt_forgotpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/forgot_pass"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/white"
+            android:text="Send Code"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-medium"
+            />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

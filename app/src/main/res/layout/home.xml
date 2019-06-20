@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/grad_bg">
+
+
+    <RelativeLayout
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+        android:id="@+id/SliderDots"
+        android:layout_below="@+id/viewPager"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    <GridLayout
+        android:columnCount="2"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="0dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/livechat"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="0dp"
+            app:cardBackgroundColor="#0f52ba"
+            >
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/st_live_chat"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:id="@+id/chat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="Live Chat"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/complain_home"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="0dp"
+            app:cardBackgroundColor="#88807B">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/st_complaint_status"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="Complain"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/newsevents"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="0dp"
+            app:cardBackgroundColor="#88807B">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/st_news_events"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="@string/newsevents" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/faqs"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="0dp"
+            app:cardBackgroundColor="#0f52ba">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:src="@drawable/st_policy"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="Policies"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </GridLayout>
+
+
+</LinearLayout>
